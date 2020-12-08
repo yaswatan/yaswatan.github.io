@@ -1,0 +1,392 @@
+html, body, h1, h2, p, ul, li, dl, dt, dd {
+  margin: 0;
+  padding: 0;
+  line-height: 1.0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  font-size: 44.0%;
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  background: #fff;
+}
+
+header {
+  color: #fff;
+  background: #38579A;
+}
+
+header .container {
+  padding: 20px 16px 40px;
+}
+
+header .container h1 {
+  margin-bottom: 10px;
+  font-size: 4rem;
+  text-align: center;
+}
+
+header .container h1::before {
+  content: url(../img/logo.png);
+  vertical-align: middle;
+}
+
+@media screen and (min-width: 768px) {
+  header .container h1 {
+    margin-bottom: 0;
+    text-align: left;
+  }
+}
+
+header .container p {
+  font-size: 2.0rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  header .container p {
+    text-align: left;
+  }
+}
+
+header .container .br {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  header .container .br {
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header .container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+header nav {
+  color: #D6CCCC;
+  background: #fff;
+}
+
+.global-nav {
+  padding: 0 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .global-nav {
+    max-width: 1180px;
+    margin: 0 auto;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+
+.global-nav li {
+  padding: 10px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .global-nav li {
+    padding: 20px;
+  }
+}
+
+.global-nav li a {
+  padding: 16px 0 10px;
+  display: block;
+  font-size: 2rem;
+}
+
+.global-nav li a.current {
+  color: #000;
+  border-bottom: 4px solid #FA660D;
+}
+
+.global-nav li a:hover {
+  color: #333;
+  border-bottom: 4px solid #333;
+}
+
+footer {
+  color: #fff;
+  background: #38579A;
+}
+
+footer p {
+  padding: 40px 22px;
+  text-align: center;
+  line-height: 1.6;
+  font-size: 2.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  footer p {
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.main-visual {
+  height: 20vh;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 4rem;
+  text-align: center;
+  color: #fff;
+  background: url(../img/durian-header.jpg) no-repeat center center/cover;
+}
+
+main h2 {
+  padding: 16px;
+  font-size: 3.6rem;
+  color: #404BAA;
+  background: #B7E2FF;
+}
+
+main h2::before {
+  content: url(../img/mall-mark.png);
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+main p {
+  padding: 20px 16px;
+  font-size: 2.4rem;
+  line-height: 1.6;
+}
+
+@media screen and (min-width: 768px) {
+  main p {
+    padding: 20px 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    width: 62%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .info p {
+    width: 30%;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .info {
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.shopinfo h3 {
+  margin: 0 16px 20px;
+  padding: 10px;
+  font-size: 3rem;
+  border-left: 10px solid #FFA023;
+  line-height: 1.4;
+}
+
+@media screen and (min-width: 768px) {
+  .shopinfo h3 {
+    margin: 0 0 20px;
+    font-size: 2.4rem;
+  }
+}
+
+.shopinfo dl {
+  margin: 0 16px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 2.0rem;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  border: solid 1px #aaa;
+}
+
+@media screen and (min-width: 768px) {
+  .shopinfo dl {
+    margin: 0 0 30px;
+  }
+}
+
+.shopinfo dl dt {
+  padding: 16px 10px 10px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -ms-flex-preferred-size: 28%;
+      flex-basis: 28%;
+  background: #D8D8D8;
+  border-bottom: solid 1px #aaa;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.shopinfo dl dd {
+  width: 72%;
+  padding: 10px;
+  line-height: 1.6;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.shopinfo dl dd:first-of-type {
+  border-bottom: solid 1px #aaa;
+}
+
+@media screen and (min-width: 768px) {
+  .shopinfo {
+    width: 66%;
+  }
+}
+
+h4 {
+  width: 120px;
+  margin: 0 16px 20px;
+  padding: 16px;
+  text-align: center;
+  font-size: 2.8rem;
+  color: #fff;
+  background: #33F5FC;
+  border-radius: 70%;
+}
+
+@media screen and (min-width: 768px) {
+  h4 {
+    width: 200px;
+    margin: 0 0 20px;
+  }
+}
+
+.txt {
+  margin: 0 16px 30px;
+  border: 2px solid #33F5FC;
+}
+
+@media screen and (min-width: 768px) {
+  .txt {
+    margin: 0 0 30px;
+    padding: 16px 16px 30px;
+  }
+}
+
+aside {
+  margin: 0 32px;
+}
+
+aside div {
+  padding: 16px;
+  background: #569FFF;
+}
+
+aside h2 {
+  padding-left: 10px;
+  font-size: 3.4rem;
+  color: #fff;
+  border-left: 4px solid #fff;
+}
+
+aside ul {
+  margin-bottom: 30px;
+  font-size: 2.4rem;
+  color: #569FFF;
+}
+
+aside ul li {
+  padding: 0 16px;
+  background: #CDEFF0;
+}
+
+aside ul li a {
+  padding: 16px 0;
+  display: block;
+  border-bottom: 1px solid #000;
+}
+
+aside ul li:last-of-type > a {
+  border-bottom: 0;
+}
+
+aside p {
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  aside {
+    width: 30%;
+  }
+}
+/*# sourceMappingURL=style02.css.map */

@@ -1,0 +1,248 @@
+html, body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+  line-height: 1.0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  font-size: 44.0%;
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  background: #fff;
+}
+
+header {
+  color: #fff;
+  background: #38579A;
+}
+
+header .container {
+  padding: 20px 16px 40px;
+}
+
+header .container h1 {
+  margin-bottom: 10px;
+  font-size: 4rem;
+  text-align: center;
+}
+
+header .container h1::before {
+  content: url(../img/logo.png);
+  vertical-align: middle;
+}
+
+@media screen and (min-width: 768px) {
+  header .container h1 {
+    margin-bottom: 0;
+    text-align: left;
+  }
+}
+
+header .container p {
+  font-size: 2.0rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  header .container p {
+    text-align: left;
+  }
+}
+
+header .container .br {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  header .container .br {
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header .container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+header nav {
+  color: #D6CCCC;
+  background: #fff;
+}
+
+.global-nav {
+  padding: 0 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .global-nav {
+    max-width: 1180px;
+    margin: 0 auto;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+
+.global-nav li {
+  padding: 10px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .global-nav li {
+    padding: 20px;
+  }
+}
+
+.global-nav li a {
+  padding: 16px 0 10px;
+  display: block;
+  font-size: 2rem;
+}
+
+.global-nav li a.current {
+  color: #000;
+  border-bottom: 4px solid #FA660D;
+}
+
+.global-nav li a:hover {
+  color: #333;
+  border-bottom: 4px solid #333;
+}
+
+.main-visual {
+  height: 30vh;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-size: 2.9rem;
+  color: #fff;
+  background: url(../img/mall_bg.jpg) no-repeat top center/cover;
+}
+
+@media screen and (min-width: 768px) {
+  .main-visual {
+    height: 46vh;
+    margin-bottom: 80px;
+    font-size: 4.8rem;
+  }
+}
+
+.main-visual p {
+  line-height: 1.8;
+}
+
+.wrapper {
+  padding: 0 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    max-width: 1180px;
+    margin: 0 auto 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.wrapper .mall {
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper .mall {
+    width: 32%;
+    margin-bottom: 0;
+  }
+}
+
+.wrapper h2 {
+  margin-bottom: 10px;
+  padding-left: 4px;
+  font-size: 3.4rem;
+  border-left: 8px solid #FA660D;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper h2 {
+    margin-bottom: 20px;
+  }
+}
+
+.wrapper .txt {
+  padding: 10px;
+  font-size: 2rem;
+  line-height: 1.6;
+  color: #fff;
+  background: #000;
+}
+
+footer {
+  color: #fff;
+  background: #38579A;
+}
+
+footer p {
+  padding: 40px 22px;
+  text-align: center;
+  line-height: 1.6;
+  font-size: 2.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  footer p {
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */
